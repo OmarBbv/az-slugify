@@ -1,0 +1,41 @@
+{
+  "name": "az-slugify",
+  "version": "1.0.0",
+  "description": "Azərbaycan dili üçün minimalist və sürətli slugify kitabxanası",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarBbv/az-slugify.git"
+  },
+  "keywords": [
+    "azerbaijan",
+    "slugify",
+    "az",
+    "text-utils",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Omar Babaverdiyev",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/OmarBbv/az-slugify/issues"
+  },
+  "homepage": "https://github.com/OmarBbv/az-slugify#readme",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  }
+}
