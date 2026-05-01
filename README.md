@@ -1,5 +1,7 @@
 # az-slugify 🇦🇿
 
+[![NPM Package](https://img.shields.io/npm/v/az-slugify.svg)](https://www.npmjs.com/package/az-slugify)
+
 Azərbaycan dilindəki xüsusi hərfləri (ə, ö, ü, ş, ç, ğ, ı) mükəmməl şəkildə ingilis hərflərinə çevirən və mətni URL-dostu (slug) formata salan minimalist bir kitabxanadır.
 
 ## 🚀 Özəlliklər
