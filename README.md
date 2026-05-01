@@ -24,11 +24,11 @@ npm install az-slugify
 ```typescript
 import { azSlugfy } from "az-slugify";
 
-const title = "Əhməd Çörək yeyir! Şuşa Qarabağdır.";
+const title = "Azərbaycan dilində proqramlaşdırma dərsləri: Yeni başlayanlar üçün!";
 const slug = azSlugfy(title);
 
 console.log(slug);
-// Nəticə: ehmed-corek-yeyir-susa-qarabagdir
+// Nəticə: azerbaycan-dilinde-proqramlasdirma-dersleri-yeni-baslayanlar-ucun
 ```
 
 **CommonJS (CJS) ilə:**
